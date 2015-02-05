@@ -1,0 +1,13 @@
+$TTL 86400
+@	IN	SOA	dns.danlab.local. root.danlab.local. (
+	2011071001	;Serial
+	3600		;Refresh
+	1800		;Retry
+	604800		;Expire
+	86400		;Minimum TTL
+)
+@	IN	NS	dns.
+200	IN	PTR	dns.danlab.local.
+224	IN	PTR	mail.danlab.local.
+201	IN	PTR	bubba.danlab.local.
+202	IN	PTR	gump.danlab.local.
